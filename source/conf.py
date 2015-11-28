@@ -47,8 +47,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Dokutemplate FIXME'
-copyright = u'2015, FIXME'
+project = u'Dokutemplate HOWTO Backup und Restore Mondo'
+copyright = u'2015, linuxmuster.net'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -116,7 +116,7 @@ html_theme_path = ["_themes"]
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
-html_title = "linuxmuster.net FIXME"
+html_title = "Backup und Restore mit Mondo"
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 #html_short_title = None
@@ -182,7 +182,7 @@ html_static_path = ['_static']
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'FIXMEdoc'
+htmlhelp_basename = 'mondodoc'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -232,8 +232,8 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'FIXME', u'linuxmuster.net FIXME',
-     [u'Author FIXME'], 1)
+    ('index', 'HOWTO Mondo', u'Backup und Restore mit Mondo',
+     [u'Author Frank Schütte'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -246,9 +246,9 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'Installationsleitfaden', u'Installationsleitfaden Documentation',
-   u'Maurice und Kai', 'Installationsleitfaden', 'One line description of project.',
-   'Miscellaneous'),
+  ('index', 'HOWTO Mondo', u'Backup und Restore mit Mondo',
+   u'Frank Schütte', 'HOWTO Mondo', 'Backup und Restore mit Mondo',
+   'Weitere Dienste'),
 ]
 
 # Documents to append as an appendix to all manuals.
@@ -267,10 +267,10 @@ texinfo_documents = [
 # -- Options for Epub output ----------------------------------------------
 
 # Bibliographic Dublin Core info.
-epub_title = u'FIXME Title'
-epub_author = u'FIXME Author'
-epub_publisher = u'FIXME Publisher'
-epub_copyright = u'2015, FIXME Copyright'
+epub_title = u'HOWTO Backup und Restore mit Mondo'
+epub_author = u'Frank Schütte'
+epub_publisher = u'linuxmuster.net'
+epub_copyright = u'2015, linuxmuster.net'
 
 # The basename for the epub file. It defaults to the project name.
 #epub_basename = u'Installationsleitfaden'

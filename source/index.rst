@@ -3,28 +3,24 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-linuxmuster.net FIXME Titel
+HOWTO Backup und Restore mit Mondo
 ======================================
-Das ist die Hauptdatei, die enthält zunächst nur das Inhaltsverzeichnis. 
-Jedes Kapitel der Dokumentation kommt in eine eigene Datei, die hier 
-eingebunden wird.
 
-Contents:
+Inhaltsverzeichnis:
 
 .. toctree::
 	:maxdepth: 2
 
-	ueberschriften
-	listen 
-	blockquote
-	bilder
-	tabellen
-
-.. note:: This is a paragraph
-
-   - Here is a bullet list.
-
-
+	uebersicht
+	installation
+	konfiguration
+	backup
+	restore
+	restore_full
+	restore_diff
+	restore_interactive
+	restore_nfs
+	mindi
 
 Index 
 ==================

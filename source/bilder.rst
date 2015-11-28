@@ -1,3 +1,0 @@
-Bilder und Abbildungen
-======================
-
